@@ -21,14 +21,16 @@
 .NavBar ul {
     flex: 1;
     display: grid;
-    grid-template-columns: 120px 120px 120px 220px;
+    grid-template-columns: 120px 120px 120px 120px 220px;
     justify-items: center;
     list-style-type: none;
 }
 
-.NavBar li{
+.NavBar a{
     color: #999;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9rem;
 }
 
