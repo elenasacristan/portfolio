@@ -1,36 +1,36 @@
 .NavBar {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    padding: 0.8%;
-    box-shadow: 3px 2px 4px #777777 ;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 0.8%;
+  box-shadow: 3px 2px 4px #777777;
 }
 
 .NavBar .logo {
-    flex: 1;
-    display: flex;
-    align-content: flex-start;
+  flex: 1;
+  display: flex;
+  align-content: flex-start;
+  padding-left: 2%;
 }
 
 .NavBar .logo span {
-    margin-top: auto  ;
-    margin-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .NavBar ul {
-    flex: 1;
-    display: grid;
-    grid-template-columns: 120px 120px 120px 120px 220px;
-    justify-items: center;
-    list-style-type: none;
+  flex: 1;
+  display: grid;
+  grid-template-columns: 120px 120px 120px 120px 220px;
+  justify-items: center;
+  list-style-type: none;
 }
 
-.NavBar a{
-    color: #999;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 0.9rem;
+.NavBar a {
+  color: rgb(55, 102, 87);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
-
