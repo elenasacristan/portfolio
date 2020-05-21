@@ -7,7 +7,6 @@ import About from "./Components/About/About.js";
 import Portfolio from "./Components/Portfolio/Portfolio.js";
 import Skills from "./Components/Skills/Skills.js";
 import Contact from "./Components/Contact/Contact.js";
-import Download from "./Components/Download/Download.js";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
           <Route path="/Portfolio" component={Portfolio}></Route>
           <Route path="/Skills" component={Skills}></Route>
           <Route path="/Contact" component={Contact}></Route>
-          <Route path="/Download" component={Download}></Route>
         </Switch>
       </Router>
     </div>
