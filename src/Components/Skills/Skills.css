@@ -1,9 +1,5 @@
 .Skills {
-  background: linear-gradient(
-    90deg,
-    rgb(197, 191, 191) 13%,
-    rgb(55, 102, 87) 96%
-  );
+  background: linear-gradient( 90deg, rgb(197, 191, 191) 13%, rgb(55, 102, 87) 96%);
 }
 
 .Skills .heading {
@@ -12,16 +8,13 @@
 }
 
 .Skills .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
   width: 80%;
   margin: 5% auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 25px;
 }
 
-.Skills .container .item-skills {
-  width: 100%;
-}
 
 .Skills ul {
   list-style-type: none;

@@ -1,0 +1,14 @@
+.Skill {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+.Skill img {
+    width: 100%;
+}
+
+.Skill h4 {
+    text-align: left;
+    margin-left: 10px;
+}
