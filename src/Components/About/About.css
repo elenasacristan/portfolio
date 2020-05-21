@@ -1,5 +1,6 @@
 .About {
   background-color: #80a6a6;
+  padding-bottom: 5%;
 }
 
 .About .container {
@@ -23,7 +24,6 @@
   padding: 2%;
   flex: 1;
   color: white;
-  font-family: "Fresca", sans-serif;
   letter-spacing: 2px;
 }
 
@@ -36,9 +36,22 @@
 
 .About h1 {
   font-size: 3.5rem;
+  font-family: "Text Me One", sans-serif;
 }
-h3 {
+.About h3 {
   font-size: 1.8rem;
+  font-family: "Fresca", sans-serif;
+}
+.About h4 {
+  font-family: "Fresca", sans-serif;
+  font-size: 1.5rem;
+}
+
+.About p {
+  font-family: "Text Me One", sans-serif;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+  line-height: 1.5;
 }
 
 .division {
@@ -58,6 +71,24 @@ h3 {
   border-radius: 5px;
 }
 
+.capital {
+  text-transform: uppercase;
+}
+
+.About .about-me {
+  margin: auto;
+  width: 70%;
+  background-color: bisque;
+  text-align: left;
+  box-shadow: 2px 2px 8px #444;
+  padding: 35px;
+}
+
+.About h4{
+    margin: 0;
+}
+
+
 @media only screen and (max-width: 1000px) {
   .About .container {
     flex-direction: column;
@@ -68,5 +99,9 @@ h3 {
   .About img {
     width: 90%;
     transform: rotate(0deg);
+  }
+  .About h1,
+  .About h3 {
+    max-width: 100%;
   }
 }
