@@ -1,11 +1,13 @@
 .About {
-  background-color: #80a6a6;
+  background: linear-gradient(90deg, rgb(255, 255, 255) 13%, rgb(120, 120, 120) 96%);
   padding-bottom: 5%;
 }
 
 .About .container {
   display: flex;
   align-items: center;
+  width: 80%;
+  margin: auto;
 }
 
 .About .profile {
@@ -78,7 +80,7 @@
 .About .about-me {
   margin: auto;
   width: 70%;
-  background-color: bisque;
+  background-color: #fffad9;
   text-align: left;
   box-shadow: 2px 2px 8px #444;
   padding: 35px;

@@ -1,8 +1,10 @@
 .NavBar {
+    position: relative;
+    z-index: 1;
     display: flex;
     background-color: rgb(255, 255, 255);
     padding: 0.8%;
-    box-shadow: 2px 2px 4px #777777 ;
+    box-shadow: 3px 2px 4px #777777 ;
 }
 
 .NavBar .logo {
