@@ -6,4 +6,8 @@ body {
   text-align: center;
 }
 
-
+.heading {
+  padding-top: 2%;
+  font-family: "Fresca", sans-serif;
+  font-size: 2rem;
+}

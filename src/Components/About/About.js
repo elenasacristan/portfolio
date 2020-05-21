@@ -1,7 +1,7 @@
 import React from "react";
 import profile from "../../images/profile.jpg";
 import "./About.css";
-import { FaStar } from "react-icons/fa";
+import Division from "../Division/Division.js"
 
 export default function About() {
   return (
@@ -14,11 +14,7 @@ export default function About() {
           <h1>
             Hi! I'm <span className="capital">Elena Sacristan</span>
           </h1>
-          <div className="division">
-            <div className="line"></div>
-            <FaStar className="icon" color="#ffc355" size="3rem" />
-            <div className="line"></div>
-          </div>
+          <Division/>
           <h3>Full-Stack Software Developer</h3>
         </div>
       </div>

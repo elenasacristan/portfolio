@@ -1,0 +1,16 @@
+.Division {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Division .icon {
+  margin: 10px;
+}
+
+.Division .line {
+  width: 100px;
+  height: 10px;
+  background-color: white;
+  border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+.Portfolio .Division .line{
+    background-color: rgb(168, 168, 168);
+}
+
+
+.Portfolio .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  width: 80%;
+  margin: 5% auto;
+}
+
+.Portfolio .container img {
+  width: 100%;
+  box-shadow: 2px 2px 8px #888;
+  border-radius: 15px;
+}
