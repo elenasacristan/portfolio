@@ -1,0 +1,32 @@
+.NavBar {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 0.8%;
+    box-shadow: 2px 2px 4px #777777 ;
+}
+
+.NavBar .logo {
+    flex: 1;
+    display: flex;
+    align-content: start;
+}
+
+.NavBar .logo span {
+    margin-top: auto  ;
+    margin-bottom: auto;
+}
+
+.NavBar ul {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 120px 120px 120px 220px;
+    justify-items: center;
+    list-style-type: none;
+}
+
+.NavBar li{
+    color: #999;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
