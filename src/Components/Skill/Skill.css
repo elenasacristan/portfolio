@@ -1,14 +1,17 @@
 .Skill {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    align-items: center;
+    width: 100px;
+    list-style-type: none;
+    padding:5px;
 }
 
+
+
 .Skill img {
-    width: 100%;
+    width: 70px;
+    margin: auto;
 }
 
 .Skill h4 {
-    text-align: left;
-    margin-left: 10px;
+    text-align: center;
+    font-size: 1rem;
 }
