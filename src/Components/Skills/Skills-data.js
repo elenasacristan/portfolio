@@ -5,7 +5,7 @@ import Python from "../../images/python.png";
 import React from "../../images/react.png";
 import Nodejs from "../../images/node.png";
 import Express from "../../images/express.png";
-import Django from "../../images/css.png";
+import Django from "../../images/dj.png";
 import Flask from "../../images/flask.png";
 import jQuery from "../../images/jquery.png";
 import Bootstrap from "../../images/bootstrap.png";
@@ -18,8 +18,8 @@ import Heroku from "../../images/heroku.png";
 import Trello from "../../images/trello.png";
 import Photoshop from "../../images/photoshop.png";
 import Fireworks from "../../images/fireworks.png";
-import Spanish from "../../images/EN.png";
-import English from "../../images/ES.png";
+import Spanish from "../../images/ES.png";
+import English from "../../images/EN.png";
 
 export default function SkillsData() {
   return [

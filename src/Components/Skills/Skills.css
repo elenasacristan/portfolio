@@ -14,29 +14,35 @@
 
 .Skills .categories-container {
   width: 80%;
-  margin: 5% auto;
-  display: grid;
-  grid-template-columns: 1fr);
-  /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
-  grid-gap: 15px;
+  margin: 50px auto;
 }
 
 .Skills .container {
   width: 80%;
-  background-color: white;
+  background-color: #ffffff38;
   padding: 20px;
   border-radius: 15px;
   margin: auto;
+  border: 1px solid #ffffff;
+  position: relative;
+  margin-bottom: 40px;
 }
 .Skills .container h3 {
-  color: rgb(0, 0, 0);
+  position: absolute;
+  top: -40px;
+  background-color: #ffc355;
+  padding: 3px 15px;
+  border-radius: 15px;
+  border-bottom: 2px solid white;
+  color: white;
   text-align: center;
+  font-size: 1.1rem;
 }
 
 .Skills .container-skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 700px) {
