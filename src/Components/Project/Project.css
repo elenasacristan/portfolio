@@ -12,13 +12,16 @@
 .Project .overlay {
   position: absolute;
   bottom: -250px;
-  background-color: #3f3e3ed8;
+  background: linear-gradient(
+    170deg, rgba(55, 102, 87, 1) 50%,
+    rgba(255, 255, 255, 1) 50%
+   
+  );
   color: rgb(255, 255, 255);
   width: 100%;
   height: 100%;
   transition: bottom ease-in-out 1s;
   overflow: hidden;
-  border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,4 +41,22 @@
 
 .Project .overlay img {
   width: 50px;
+}
+
+.Project .overlay button {
+  background-color: #fdb127;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.Project .overlay button:focus {
+  outline: none;
+}
+
+.Project .overlay button:hover {
+  background-color: #d48b04;
 }
