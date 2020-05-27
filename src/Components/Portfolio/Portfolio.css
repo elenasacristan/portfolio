@@ -1,7 +1,6 @@
-.Portfolio .Division .line{
-    background-color: rgb(168, 168, 168);
+.Portfolio .Division .line {
+  background-color: rgb(168, 168, 168);
 }
-
 
 .Portfolio .container {
   display: grid;
@@ -11,8 +10,4 @@
   margin: 5% auto;
 }
 
-.Portfolio .container img {
-  width: 100%;
-  box-shadow: 2px 2px 8px #888;
-  border-radius: 15px;
-}
+
