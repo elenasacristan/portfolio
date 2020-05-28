@@ -2,6 +2,7 @@ import Monkees from "../../images/portfolio/monkees.png";
 import HolidaysYa from "../../images/portfolio/holidaysYa.png";
 import Cookbook from "../../images/portfolio/cookbook.png";
 import TreeBooks from "../../images/portfolio/treebooks.png";
+import Kodflix from "../../images/portfolio/kodflix.png";
 import Html from "../../images/skills/html5.png";
 import Css from "../../images/skills/css.png";
 import JavaScript from "../../images/skills/js.png";
@@ -11,11 +12,23 @@ import Flask from "../../images/skills/flask.png";
 import Bootstrap from "../../images/skills/bootstrap.png";
 import Materialize from "../../images/skills/materialize.png";
 import Mongo from "../../images/skills/mongo.png";
+import React from "../../images/skills/react-dark.png";
+import Nodejs from "../../images/skills/node.png";
+import Express from "../../images/skills/express.png";
 
 export default function ProjectData() {
   return [
     {
       id: 1,
+      title: "Kodflix",
+      // description:"This is the final milestone project for the Fullstack Web Development course with Code Institute and was created using the Django framework. For this website I've created a fictitious charity called TreeBooks whose aim is to raise money to plant trees by renting second-hand books.",
+      technologies: [Html, Css, JavaScript, React, Nodejs, Express],
+      url: "https://kodflix-ess.herokuapp.com/",
+      github: "https://github.com/elenasacristan/kodflix",
+      img: Kodflix,
+    },
+    {
+      id: 2,
       title: "TreeBooks",
       // description:"This is the final milestone project for the Fullstack Web Development course with Code Institute and was created using the Django framework. For this website I've created a fictitious charity called TreeBooks whose aim is to raise money to plant trees by renting second-hand books.",
       technologies: [Python, Django],
@@ -24,7 +37,7 @@ export default function ProjectData() {
       img: TreeBooks,
     },
     {
-      id: 2,
+      id: 3,
       title: "Time2Eat",
       // description:"Time2Eat was my third milestone project for the Fullstack Web Development course with Code Institute. This app was created using the Flask framework.
 
@@ -39,7 +52,7 @@ export default function ProjectData() {
       img: Cookbook,
     },
     {
-      id: 3,
+      id: 4,
       title: "HolidaysYa",
       // description:"HolidaysYa was my second milestone project for the Fullstack Web Development course with Code Institute. The dashboards in this website have been created using DC.js and Crossfilter.js.
 
@@ -53,7 +66,7 @@ export default function ProjectData() {
     },
 
     {
-      id: 4,
+      id: 5,
       title: "The Monkees",
       // description:"This was my first milestone project for the Fullstack Web Development course with Code Institute.
       // This is a fictitious website for the Monkees band. This is a website that would be used mainly by current and prospective fans of the Monkees in order to keep up to date with the latest news, know more about the band and listen to the Monkees songs. It would also be used by the band to sell tickets for future concerts, showcase the new albums and be contacted by event organisers to play in events.",
@@ -62,5 +75,6 @@ export default function ProjectData() {
       github: "https://github.com/elenasacristan/the-monkees-website",
       img: Monkees,
     },
+ 
   ];
 }

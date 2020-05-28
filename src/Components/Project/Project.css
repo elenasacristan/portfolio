@@ -40,7 +40,8 @@
 }
 
 .Project .overlay img {
-  width: 50px;
+  width: 40px;
+  padding: 5px;
 }
 
 .Project .overlay button {
