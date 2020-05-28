@@ -4,9 +4,9 @@ import Division from "../Division/Division.js";
 import Project from "../Project/Project.js";
 import ProjectData from "./Projects-data.js";
 
-export default function Portfolio() {
+export default function Portfolio({id}) {
   return (
-    <div className="Portfolio">
+    <div className="Portfolio" id={id}>
       <h2 className="heading">Portfolio</h2>
       <Division />
       <div className="container">

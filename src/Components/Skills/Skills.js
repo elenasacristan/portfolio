@@ -4,9 +4,9 @@ import Division from "../Division/Division.js";
 import Skill from "../Skill/Skill.js";
 import SkillsData from "./Skills-data.js";
 
-export default function Skills() {
+export default function Skills({id}) {
   return (
-    <div className="Skills">
+    <div className="Skills" id={id}>
       <h2 className="heading">Skills</h2>
       <Division />
       <div className="categories-container">

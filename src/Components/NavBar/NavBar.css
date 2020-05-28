@@ -1,5 +1,6 @@
 .NavBar {
-  position: relative;
+  position: sticky;
+  top: 0px;
   z-index: 1;
   display: flex;
   background-color: rgb(255, 255, 255);
@@ -14,6 +15,11 @@
   padding-left: 2%;
 }
 
+.NavBar .logo:hover{
+  cursor: pointer;
+}
+
+
 .NavBar .logo span {
   margin-top: auto;
   margin-bottom: auto;
@@ -25,6 +31,14 @@
   grid-template-columns: 120px 120px 120px 120px;
   justify-items: center;
   list-style-type: none;
+}
+
+.NavBar li{
+  cursor: pointer;
+}
+
+.NavBar li > .active {
+  border-bottom: 2px solid #ffc355; 
 }
 
 .NavBar a {

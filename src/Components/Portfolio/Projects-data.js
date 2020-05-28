@@ -12,7 +12,6 @@ import Bootstrap from "../../images/skills/bootstrap.png";
 import Materialize from "../../images/skills/materialize.png";
 import Mongo from "../../images/skills/mongo.png";
 
-
 export default function ProjectData() {
   return [
     {
@@ -34,7 +33,7 @@ export default function ProjectData() {
       // The app also gives the users the option to search for recipes based on different filters and there is also a section in the website where the users can see some statistics about the recipes and check the ranking of the top rated recipe authors.
 
       // ",
-      technologies:  [Python, Flask, Materialize],
+      technologies: [Python, Flask, Materialize, Mongo],
       url: "http://time2eat-cookbook.herokuapp.com/",
       github: "https://github.com/elenasacristan/CookBook",
       img: Cookbook,
@@ -47,12 +46,12 @@ export default function ProjectData() {
       // This is a website that would be used for people who are not sure where to go on holidays but they have a limited budget or they are looking for specific weather (i.e. temperature and precipitation).
 
       // In the intro screen they will select the month when they are planning to travel and then they can decide if they want to search based on budget or weather.",
-      technologies:[Html, Css, Bootstrap, JavaScript],
+      technologies: [Html, Css, JavaScript, Bootstrap],
       url: "https://elenasacristan.github.io/HolidaysYa/",
       github: "https://github.com/elenasacristan/HolidaysYa",
       img: HolidaysYa,
     },
-   
+
     {
       id: 4,
       title: "The Monkees",

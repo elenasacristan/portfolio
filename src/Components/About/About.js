@@ -3,9 +3,9 @@ import profile from "../../images/profile.jpg";
 import "./About.css";
 import Division from "../Division/Division.js"
 
-export default function About() {
+export default function About({id}) {
   return (
-    <main className="About">
+    <main className="About" id={id}>
       <div className="container">
         <div className="profile">
           <img src={profile} alt="profile" />
