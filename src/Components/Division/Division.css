@@ -5,12 +5,12 @@
 }
 
 .Division .icon {
-  margin: 10px;
+  margin: 0px 10px;
 }
 
 .Division .line {
   width: 100px;
-  height: 10px;
+  height: 5px;
   background-color: white;
   border-radius: 5px;
 }

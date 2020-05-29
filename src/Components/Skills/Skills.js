@@ -1,16 +1,21 @@
-import React from "react";
+import React,{ useEffect } from "react";
 import "./Skills.css";
 import Division from "../Division/Division.js";
 import Skill from "../Skill/Skill.js";
 import SkillsData from "./Skills-data.js";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Skills({id}) {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="Skills" id={id}>
       <h2 className="heading">Skills</h2>
       <Division />
-      <div className="categories-container">
-        <div className="container">
+      <div className="categories-container" >
+        <div className="container" data-aos="fade-left">
           <h3>Front End</h3>
           <div className="container-skills">
             {SkillsData()
@@ -20,7 +25,7 @@ export default function Skills({id}) {
               ))}
           </div>
         </div>
-        <div className="container">
+        <div className="container" data-aos="fade-right">
           <h3>Back End & Databases</h3>
           <div className="container-skills">
             {SkillsData()
@@ -30,7 +35,7 @@ export default function Skills({id}) {
               ))}
           </div>
         </div>
-        <div className="container">
+        <div className="container" data-aos="fade-left">
           <h3>Other technologies</h3>
           <div className="container-skills">
             {SkillsData()
@@ -40,7 +45,7 @@ export default function Skills({id}) {
               ))}
           </div>
         </div>
-        <div className="container">
+        <div className="container" data-aos="fade-right">
           <h3>Languages</h3>
           <div className="container-skills">
             {SkillsData()

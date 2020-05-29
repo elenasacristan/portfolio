@@ -4,8 +4,6 @@
     padding:5px;
 }
 
-
-
 .Skill img {
     width: 50px;
     margin: auto;
@@ -13,7 +11,5 @@
 
 .Skill h4 {
     text-align: center;
-    font-size: 1.1rem;
-    font-family: "Text Me One", sans-serif;
     margin-bottom: 18px;
 }
