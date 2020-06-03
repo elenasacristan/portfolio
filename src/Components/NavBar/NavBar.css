@@ -6,6 +6,7 @@
   background-color: rgb(255, 255, 255);
   padding: 0.8%;
   box-shadow: 3px 2px 4px #777777;
+  height: 70px;
 }
 
 .NavBar .logo {

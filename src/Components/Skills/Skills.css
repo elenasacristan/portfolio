@@ -4,12 +4,12 @@
     rgb(197, 191, 191) 13%,
     rgb(55, 102, 87) 96%
   );
-  padding-bottom: 25px;
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
 
 .Skills .heading {
   color: white;
-  margin-top: 0;
 }
 
 .Skills .categories-container {
@@ -27,6 +27,7 @@
   position: relative;
   margin-bottom: 40px;
 }
+
 .Skills .container h3 {
   position: absolute;
   top: -40px;

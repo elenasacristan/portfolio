@@ -4,7 +4,7 @@
     rgb(197, 191, 191) 13%,
     rgb(55, 102, 87) 96%
   );
-  padding-bottom: 50px;
+  padding-top: 70px;
 }
 
 .About .container {
@@ -27,7 +27,6 @@
 }
 
 .About .title {
-  padding: 2%;
   flex: 1;
   color: white;
   letter-spacing: 2px;
