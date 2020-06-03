@@ -1,12 +1,15 @@
 import React from "react";
 import "./Project.css";
+import { Link } from "react-router-dom";
 
 export default function Project(props) {
   return (
     <div className="Project">
       <div className="overlay">
         <h4>{props.title}</h4>
-        <button>See more</button>
+        <button>
+          <Link to="/details">See more</Link>
+        </button>
         <div>
           {props.technologies.map((technology) => (
             <img
