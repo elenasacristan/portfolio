@@ -22,13 +22,6 @@ function App() {
           <Route exact path="/" component={Main} />
         </Switch>
       </Router>
-      {/* <NavBar />
-      <About id="about" />
-      <div data-aos="fade-right">
-        <Portfolio id="portfolio" />
-      </div>
-      <Skills id="skills" />
-        <Contact id="contact" /> */}
     </div>
   );
 }

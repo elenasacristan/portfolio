@@ -7,12 +7,12 @@ import Contact from "../Contact/Contact.js";
 
 export default function Main() {
   return (
-    <>
+    <div id="about">
       <NavBar />
-      <About id="about" />
+      <About/>
       <Portfolio id="portfolio" />
       <Skills id="skills" />
       <Contact id="contact" />
-    </>
+    </div>
   );
 }

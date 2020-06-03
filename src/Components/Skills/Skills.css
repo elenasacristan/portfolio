@@ -4,8 +4,7 @@
     rgb(197, 191, 191) 13%,
     rgb(55, 102, 87) 96%
   );
-  padding-top: 70px;
-  padding-bottom: 30px;
+  padding: 70px 0px 30px;
 }
 
 .Skills .heading {
@@ -45,4 +44,3 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
