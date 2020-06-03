@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import "./NavBar.css";
+import Logo from "./logo.svg";
 import { FaCode, FaAlignJustify } from "react-icons/fa";
 import { NavHashLink as Link } from "react-router-hash-link";
+
+import { GiPuzzle } from "react-icons/gi";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +13,8 @@ export default function NavBar() {
         <div className="logo">
           <span>
             <Link smooth to="#about" activeClassName="selected">
-              <FaCode className="logo-icon" color="#ffc355" size="3.2rem" />
+              {/* <GiPuzzle className="logo-icon" color="#ffc355" size="3.2rem" /> */}
+              <img src={Logo} alt="logo"/>
             </Link>
           </span>
         </div>
