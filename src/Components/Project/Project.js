@@ -8,7 +8,7 @@ export default function Project(props) {
       <div className="overlay">
         <h4>{props.title}</h4>
         <button>
-          <Link to="/details">See more</Link>
+          <Link to={"/" + props.id}>See more</Link>
         </button>
         <div>
           {props.technologies.map((technology) => (

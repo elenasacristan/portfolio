@@ -14,11 +14,11 @@
   padding-left: 2%;
 }
 
-.NavBar .logo a{
+.NavBar .logo a {
   position: relative;
 }
 
-.NavBar .logo img{
+.NavBar .logo img {
   width: 120px;
   position: absolute;
 }
@@ -55,14 +55,12 @@
   .NavBar {
     flex-direction: column;
   }
-  
-
 
   .NavBar-continer-button-menu {
     position: relative;
   }
 
-  .NavBar .logo img{
+  .NavBar .logo img {
     width: 100px;
     position: relative;
   }
@@ -96,16 +94,15 @@
 
   .NavBar-box-link {
     padding: 5% 0;
-    border-top: 3px solid rgb(241, 241, 241);
+    border-top: 3px solid rgb(232, 232, 232);
   }
-  .NavBar-box-link:hover{
-    background-color:  #e6e6e63d;
+  .NavBar-box-link:hover {
+    background-color: #e6e6e68a;
   }
 
   .NavBar .hamburger {
-    color: #a8a8a8;
+    color: #446e61;
     font-size: 2rem;
     padding-top: 10px;
   }
-
 }

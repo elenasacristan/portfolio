@@ -16,9 +16,10 @@ export default function Portfolio({ id }) {
       <Division />
       <div className="container" >
         {ProjectData().map((project) => (
-          <div data-aos="flip-right" className="wrapper-animation">
+          <div key={project.id} data-aos="flip-right" className="wrapper-animation">
           <Project
-            key={project.id}
+            // key={project.id}
+            id={project.id}
             img={project.img}
             title={project.title}
             technologies={project.technologies}
@@ -29,3 +30,5 @@ export default function Portfolio({ id }) {
     </div>
   );
 }
+
+

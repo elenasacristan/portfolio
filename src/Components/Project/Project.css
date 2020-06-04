@@ -8,6 +8,8 @@
 
 .Project h4 {
   margin: 0;
+  font-size: 1.4rem;
+
 }
 
 .Project .overlay {
@@ -52,7 +54,8 @@
   border: none;
   border-radius: 15px;
   text-transform: uppercase;
-  font-size: 1.1rem;
+  box-shadow: 1px 1px 3px #333;
+
 }
 
 .Project .overlay button:focus {
@@ -61,4 +64,11 @@
 
 .Project .overlay button:hover {
   background-color: #d48b04;
+}
+
+.Project .overlay button a{
+  text-decoration: none;
+  color: #376657;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
