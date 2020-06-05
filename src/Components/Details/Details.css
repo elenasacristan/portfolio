@@ -1,0 +1,83 @@
+.Details {
+    width: 80%;
+    margin: auto;
+}
+
+.Details .Division .line {
+    background-color: rgb(168, 168, 168);
+}
+
+.Details-container {
+    padding-top: 50px;
+    display: flex;
+}
+
+.Details-image {
+    flex: 1;
+}
+
+.Details-image img {
+    width: 100%;
+    box-shadow: 1px 1px 7px #777;
+}
+
+.Details-body {
+    position: relative;
+    top: 70px;
+    left: -20px;
+    background-color: white;
+    box-shadow: 1px 1px 7px #777;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 40px 20px 40px;
+    text-align: justify;
+    flex: 1;
+    transform: rotate(-4deg);
+    font-size: 0.9rem;
+
+}
+
+.Description{
+    line-height: 1.8;
+}
+
+.Details-icons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Details-icons-container .icon {
+    font-size: 3rem;
+    padding: 30px;
+    color: rgb(241, 165, 0);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+.Details-icons-container .icon:hover{
+    color: rgb(32, 78, 44);
+}
+
+
+@media (max-width:1200px) {
+    .Details-container {
+        flex-direction: column;
+    }
+    
+    .Details-image {
+        width: 85%;
+    }
+    .Details-image{
+        margin: auto;
+    }
+    .Details-body{
+        z-index: -1;
+        top: -25px;
+        left: 0px;
+        transform: rotate(0deg);
+        font-size: 0.8rem;
+    }
+}
