@@ -17,5 +17,11 @@
 .Portfolio .wrapper-animation {
   margin: 10px;
   width: 350px;
-  min-width: 350px;
+  min-width: 250px;
+}
+
+@media (max-width: 600px){
+  .Portfolio{
+    padding-top: 90px;
+  }
 }

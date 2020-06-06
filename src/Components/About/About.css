@@ -1,11 +1,6 @@
 .About {
-  background: linear-gradient(
-    90deg,
-    rgb(197, 191, 191) 13%,
-    rgb(55, 102, 87) 96%
-  );
+  background: linear-gradient( 90deg, rgb(197, 191, 191) 13%, rgb(55, 102, 87) 96%);
   padding-bottom: 90px;
-  
 }
 
 .About .container {
@@ -33,8 +28,7 @@
   letter-spacing: 2px;
 }
 
-.About h1,
-.About h3 {
+.About h1, .About h3 {
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
@@ -45,10 +39,12 @@
   font-family: "Text Me One", sans-serif;
   font-weight: 100;
 }
+
 .About h3 {
   font-size: 1.8rem;
   font-family: "Fresca", sans-serif;
 }
+
 .About h4 {
   font-family: "Fresca", sans-serif;
   font-size: 1.5rem;
@@ -60,8 +56,6 @@
   color: rgb(71, 71, 71);
   line-height: 1.5;
 }
-
-
 
 .capital {
   text-transform: uppercase;
@@ -84,7 +78,6 @@
   .About {
     padding-bottom: 5%;
   }
-
   .About .container {
     flex-direction: column;
   }
@@ -95,8 +88,13 @@
     width: 90%;
     transform: rotate(0deg);
   }
-  .About h1,
-  .About h3 {
+  .About h1, .About h3 {
     max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .About h1 {
+    font-size: 2rem;
   }
 }

@@ -1,9 +1,5 @@
 .Skills {
-  background: linear-gradient(
-    90deg,
-    rgb(197, 191, 191) 13%,
-    rgb(55, 102, 87) 96%
-  );
+  background: linear-gradient( 90deg, rgb(197, 191, 191) 13%, rgb(55, 102, 87) 96%);
   padding: 70px 0px 30px;
 }
 
@@ -29,7 +25,7 @@
 
 .Skills .container h3 {
   position: absolute;
-  top: -40px;
+  top:-40px;
   background-color: #ffc355;
   padding: 3px 15px;
   border-radius: 15px;
@@ -43,4 +39,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+  .Skills {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Skills .container h3 {
+    font-size: 1rem;
+    left:2px;
+  }
 }

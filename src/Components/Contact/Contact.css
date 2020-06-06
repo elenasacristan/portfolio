@@ -33,6 +33,9 @@
 }
 
 @media (max-width: 600px){
+    .Contact{
+        padding-top: 90px;
+      }
     .Contact .container{
         display: flex;
         flex-direction: column;
@@ -45,3 +48,4 @@
         margin-top: 15px;
     }  
 }
+

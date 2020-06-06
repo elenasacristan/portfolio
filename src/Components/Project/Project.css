@@ -72,3 +72,12 @@
   font-weight: bold;
   font-size: 0.9rem;
 }
+
+@media (max-width: 400px){
+  .Project .overlay img {
+    width: 30px;
+    padding: 5px;
+  }
+}
+
+
