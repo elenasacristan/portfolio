@@ -44,7 +44,7 @@
 }
 
 .NavBar-box a {
-  color: rgb(55, 102, 87);
+  color: #80a6a6;
   font-weight: bold; 
   text-transform: uppercase;
   text-decoration: none;
@@ -101,7 +101,7 @@
   }
 
   .NavBar .hamburger {
-    color: #446e61;
+    color:  #80a6a6;
     font-size: 2rem;
     padding-top: 10px;
   }

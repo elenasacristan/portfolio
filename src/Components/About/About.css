@@ -1,5 +1,5 @@
 .About {
-  background: linear-gradient( 90deg, rgb(197, 191, 191) 13%, rgb(55, 102, 87) 96%);
+  background: linear-gradient(90deg, rgba(102, 98, 98, 0.82) 13%, #80a6a6 96%);
   padding-bottom: 90px;
 }
 
@@ -13,6 +13,8 @@
 .About .profile {
   flex: 1;
   padding: 5%;
+  position: relative;
+  bottom: -40px;
 }
 
 .About img {
@@ -26,23 +28,25 @@
   flex: 1;
   color: white;
   letter-spacing: 2px;
+  margin-bottom: 25px;
 }
 
-.About h1, .About h3 {
+.About h1,
+.About h3 {
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .About h1 {
-  font-size: 3.5rem;
-  font-family: "Text Me One", sans-serif;
+  font-size: 3rem;
   font-weight: 100;
+  font-family: "Fresca", sans-serif;
 }
 
 .About h3 {
-  font-size: 1.8rem;
-  font-family: "Fresca", sans-serif;
+  font-size: 1.5rem;
+  font-family: "Text Me One", sans-serif;
 }
 
 .About h4 {
@@ -67,14 +71,14 @@
   background-color: #fff;
   text-align: left;
   box-shadow: 2px 2px 8px #444;
-  padding: 35px;
+  padding: 100px 45px 50px;
 }
 
 .About h4 {
   margin: 0;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1060px) {
   .About {
     padding-bottom: 5%;
   }
@@ -83,18 +87,10 @@
   }
   .About .profile {
     order: 1;
+    margin-top: -80px;
   }
   .About img {
     width: 90%;
     transform: rotate(0deg);
-  }
-  .About h1, .About h3 {
-    max-width: 100%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .About h1 {
-    font-size: 2rem;
   }
 }
