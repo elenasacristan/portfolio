@@ -6,11 +6,11 @@ import Division from "../Division/Division.js"
 export default function About() {
   return (
     <main className="About">
-      <div className="container">
-        <div className="profile">
+      <div className="About-container">
+        <div className="About-profile">
           <img src={profile} alt="profile" />
         </div>
-        <div className="title">
+        <div className="About-title">
           <h1>
             Hi! I'm <span className="capital">Elena Sacristan</span>
           </h1>
@@ -18,7 +18,7 @@ export default function About() {
           <h3>Full-Stack Software Developer</h3>
         </div>
       </div>
-      <div className="about-me">
+      <div className="About-me">
         <h4>A bit about me...</h4>
         <p>
           After 10 years in technical roles within the Market Research Industry,

@@ -3,14 +3,14 @@
   padding-bottom: 90px;
 }
 
-.About .container {
+.About-container {
   display: flex;
   align-items: center;
   width: 80%;
   margin: auto;
 }
 
-.About .profile {
+.About-profile {
   flex: 1;
   padding: 5%;
   position: relative;
@@ -24,7 +24,7 @@
   box-shadow: 2px 2px 8px #555;
 }
 
-.About .title {
+.About-title {
   flex: 1;
   color: white;
   letter-spacing: 2px;
@@ -46,26 +46,28 @@
 
 .About h3 {
   font-size: 1.5rem;
-  font-family: "Text Me One", sans-serif;
+  font-weight: lighter;
+
 }
 
 .About h4 {
-  font-family: "Fresca", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  margin: 0;
 }
 
 .About p {
-  font-family: "Text Me One", sans-serif;
+ 
   font-weight: bold;
   color: rgb(71, 71, 71);
-  line-height: 1.5;
+  line-height: 2;
+  font-size: 0.8rem;
 }
 
 .capital {
   text-transform: uppercase;
 }
 
-.About .about-me {
+.About-me {
   margin: auto;
   width: 70%;
   background-color: #fff;
@@ -74,18 +76,14 @@
   padding: 100px 45px 50px;
 }
 
-.About h4 {
-  margin: 0;
-}
-
 @media only screen and (max-width: 1060px) {
   .About {
     padding-bottom: 5%;
   }
-  .About .container {
+  .About-container {
     flex-direction: column;
   }
-  .About .profile {
+  .About-profile {
     order: 1;
     margin-top: -80px;
   }

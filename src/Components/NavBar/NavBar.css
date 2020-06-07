@@ -41,6 +41,7 @@
 
 .NavBar-box-link {
   padding: 10px 20px;
+  font-weight: bolder;
 }
 
 .NavBar-box a {
@@ -49,6 +50,11 @@
   text-transform: uppercase;
   text-decoration: none;
   font-size: 0.9rem;
+}
+
+.NavBar-box a:hover {
+  color: #495d5d;
+  
 }
 
 @media (max-width: 600px) {
