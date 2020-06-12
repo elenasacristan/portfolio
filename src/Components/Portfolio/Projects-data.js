@@ -22,7 +22,7 @@ export default function ProjectData() {
     {
       id: 0,
       title: "DrinkMeApp",
-      description:"This application was created with team of developers as part of the Kodiri Bootcamp. The aim of the website is to provide the users with recipes for cocktails and other type of drinks. The website is created with React and we used the 'https://www.thecocktaildb.com/api.php' API to get the recipes.",
+      description:"This application was created with a team of developers as part of the Kodiri Bootcamp. The aim of the website is to provide the users with recipes for cocktails and other type of drinks. The website is created with React and we used the 'https://www.thecocktaildb.com/api.php' API to get the recipes.",
       technologies: [Html, Css, JavaScript, React],
       url: "https://kodflix-ess.herokuapp.com/",
       github: "https://github.com/elenasacristan/drinkmeapp",
@@ -31,7 +31,7 @@ export default function ProjectData() {
     {
       id: 1,
       title: "Kodflix",
-      description:"This was the first website created with React, Node and Express as part of the Kodiri Bootcamp and is an imitation of the Netflix Website.",
+      description:"This was my first website created with React, Node and Express as part of the Kodiri Bootcamp and it is an imitation of the Netflix Website.",
       technologies: [Html, Css, JavaScript, React, Nodejs, Express],
       url: "https://kodflix-ess.herokuapp.com/",
       github: "https://github.com/elenasacristan/kodflix",
