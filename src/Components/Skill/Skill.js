@@ -10,7 +10,6 @@ export default function Skill(prop) {
       <div>
         <img src={prop.img} alt={prop.name} />
       </div>
-      
     </li>
   );
 }

@@ -12,6 +12,7 @@
     position: absolute;
     top: 5px;
     left: 20px;
+    font-weight: bold;
 }
 
 .Details .back-button .icon {
@@ -96,12 +97,13 @@
     }
     .Details-image {
         width: 85%;
-    }
-    .Details-image {
+        position: relative;
+        z-index: 1;
         margin: auto;
     }
+  
     .Details-body {
-        z-index: -1;
+        z-index: 0;
         top: -25px;
         left: 0px;
         padding-top: 60px;

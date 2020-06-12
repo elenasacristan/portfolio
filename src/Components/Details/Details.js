@@ -17,8 +17,6 @@ export default function Details({ match }) {
     setProject(projectSelected[0]);
     setText(projectSelected[0].description.split("(newline)"));
     setTechnologies(projectSelected[0].technologies);
-
-    console.log(projectSelected[0].technologies);
   }, [match.params.idProject]);
   return (
     <div className="Details">
@@ -43,7 +41,7 @@ export default function Details({ match }) {
         <div className="Details-body">
           <div className="Description">
             {text.map((line) => (
-              <p>{line}</p>
+              <p key={line}>{line}</p>
             ))}
           </div>
           <div className="Details-icons-container">
