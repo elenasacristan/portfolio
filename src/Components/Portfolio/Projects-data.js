@@ -3,6 +3,7 @@ import HolidaysYa from "../../images/portfolio/holidaysYa.png";
 import Cookbook from "../../images/portfolio/cookbook.png";
 import TreeBooks from "../../images/portfolio/treebooks.png";
 import Kodflix from "../../images/portfolio/kodflix.png";
+import DrinkMeApp from "../../images/portfolio/drinkmeapp.png";
 import Html from "../../images/skills/html5.png";
 import Css from "../../images/skills/css.png";
 import JavaScript from "../../images/skills/js.png";
@@ -19,9 +20,18 @@ import Express from "../../images/skills/express.png";
 export default function ProjectData() {
   return [
     {
+      id: 0,
+      title: "DrinkMeApp",
+      description:"This application was created with team of developers as part of the Kodiri Bootcamp. The aim of the website is to provide the users with recipes for cocktails and other type of drinks. The website is created with React and we used the 'https://www.thecocktaildb.com/api.php' API to get the recipes.",
+      technologies: [Html, Css, JavaScript, React],
+      url: "https://kodflix-ess.herokuapp.com/",
+      github: "https://github.com/elenasacristan/drinkmeapp",
+      img: DrinkMeApp,
+    },
+    {
       id: 1,
       title: "Kodflix",
-      description:"This was the first website created with React, Node and Express as part of the Kodiri Bootcamp and is an imitation of the Netflix Website",
+      description:"This was the first website created with React, Node and Express as part of the Kodiri Bootcamp and is an imitation of the Netflix Website.",
       technologies: [Html, Css, JavaScript, React, Nodejs, Express],
       url: "https://kodflix-ess.herokuapp.com/",
       github: "https://github.com/elenasacristan/kodflix",
