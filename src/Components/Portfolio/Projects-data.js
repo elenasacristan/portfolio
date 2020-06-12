@@ -24,8 +24,8 @@ export default function ProjectData() {
       title: "DrinkMeApp",
       description:"This application was created with a team of developers as part of the Kodiri Bootcamp. The aim of the website is to provide the users with recipes for cocktails and other type of drinks. The website is created with React and we used the 'https://www.thecocktaildb.com/api.php' API to get the recipes.",
       technologies: [Html, Css, JavaScript, React],
-      url: "https://kodflix-ess.herokuapp.com/",
-      github: "https://github.com/elenasacristan/drinkmeapp",
+      url: "https://drinkmeapp.herokuapp.com/",
+      github: "https://github.com/elenasacristan/drink-me-app",
       img: DrinkMeApp,
     },
     {
