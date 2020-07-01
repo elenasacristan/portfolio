@@ -1,7 +1,7 @@
 import React from "react";
 import profile from "../../images/profile.jpg";
 import "./About.css";
-import Division from "../Division/Division.js"
+import Division from "../Division/Division.js";
 
 export default function About() {
   return (
@@ -14,7 +14,7 @@ export default function About() {
           <h1>
             Hi! I'm <span className="capital">Elena Sacristan</span>
           </h1>
-          <Division/>
+          <Division />
           <h3>Full-Stack Software Developer</h3>
         </div>
       </div>
@@ -33,10 +33,10 @@ export default function About() {
         <p>
           Whilst getting more involved in the Web Development community I have
           realised the importance of learning about React, Nodejs, Express and
-          Agile so I am now taking part in a Bootcamp at Kodiri to develop my
-          skills in these technologies. This Bootcamp will finish on the 26th
-          June and I can't wait to start using everything I have learnt in my
-          next role.
+          Agile so in May 2020 I decided to take part in an intensive eight week
+          Bootcamp at Kodiri to develop my skills in these technologies. This
+          Bootcamp finished on the 26th June and I can't wait to start using
+          everything I have learnt in my next role.
         </p>
       </div>
     </main>
