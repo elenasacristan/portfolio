@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ReactGA from "react-ga";
 import Division from "../Division/Division.js";
 import ProjectData from "../Portfolio/Projects-data.js";
 import "./Details.css";
