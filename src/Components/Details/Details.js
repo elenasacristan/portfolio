@@ -5,10 +5,20 @@ import "./Details.css";
 import { FaRegEye, FaGithub, FaArrowAltCircleLeft } from "react-icons/fa";
 import { NavHashLink as Link } from "react-router-hash-link";
 
+function initializeAnalytics(project) {
+  ReactGA.initialize("UA-171425151-1", {gaOptions: {
+    siteSpeedSampleRate: 100
+  }});
+  ReactGA.pageview('/' + project)
+}
+
+
 export default function Details({ match }) {
   const [project, setProject] = useState({});
   const [text, setText] = useState([]);
   const [technologies, setTechnologies] = useState([]);
+
+  initializeAnalytics(match.params.idProject);
 
   useEffect(() => {
     let projectSelected = ProjectData().filter(
