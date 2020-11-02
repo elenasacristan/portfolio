@@ -17,6 +17,7 @@ import Heroku from "../../images/skills/heroku.png";
 import Trello from "../../images/skills/trello.png";
 import Photoshop from "../../images/skills/photoshop.png";
 import Fireworks from "../../images/skills/fireworks.png";
+import Figma from "../../images/skills/figma.png";
 import Spanish from "../../images/skills/ES.png";
 import English from "../../images/skills/EN.png";
 
@@ -40,8 +41,9 @@ export default function SkillsData() {
     { id: 17, type: "other", name: "Trello", img: Trello },
     { id: 18, type: "other", name: "Photoshop", img: Photoshop },
     { id: 19, type: "other", name: "Fireworks", img: Fireworks },
-    { id: 20, type: "back", name: "Mongo", img: Mongo },
-    { id: 21, type: "lan", name: "Spanish", img: Spanish },
-    { id: 22, type: "lan", name: "English", img: English },
+    { id: 20, type: "other", name: "Figma", img: Figma },
+    { id: 21, type: "back", name: "Mongo", img: Mongo },
+    { id: 22, type: "lan", name: "Spanish", img: Spanish },
+    { id: 23, type: "lan", name: "English", img: English },
   ];
 }
